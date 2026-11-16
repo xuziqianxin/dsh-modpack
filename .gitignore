@@ -2,3 +2,7 @@ node_modules/
 *.tgz
 package-lock.json
 .DS_Store
+
+# 只公开插件代码与 README：以下内部文档不推远程
+CONTRACT.md
+NOTES-dsh-facts.md

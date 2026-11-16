@@ -26,8 +26,7 @@
     "client.js",
     "cordis.patch.yml",
     "icon.svg",
-    "README.md",
-    "CONTRACT.md"
+    "README.md"
   ],
   "dsh": {
     "bundle": {

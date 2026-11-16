@@ -32,7 +32,7 @@ DSH 本来就能一个个开/关插件。整合包是这层开关之上的编排
 
 ## 接口
 
-内部 HTTP 接口在 `/api/dsh-modpack/*`，形状见 [CONTRACT.md](CONTRACT.md)。只有本插件的界面会调用它们。
+内部 HTTP 接口在 `/api/dsh-modpack/*`：`state` 读取状态，`switch` 切换整合包，`pack/save|delete|adopt` 维护整合包，`common` 开关常开白名单。只有本插件的界面会调用它们。
 
 ## 边界
 
